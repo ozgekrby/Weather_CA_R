@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+.weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.weather-card {
+  background-color: #f9f9f9;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 7.5rem;
+  text-align: center;
+}
+
+.weather-card img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.today {
+  background-color: #eeeee8; 
+  border: 0.2rem solid #ff9800; 
+}
